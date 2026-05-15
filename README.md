@@ -53,49 +53,6 @@ Projede kullanılan veri seti sınıflandırma formatındadır. Veri seti aşağ
 - yawn
 - no_yawn
 
-Örnek veri seti klasör yapısı:
-
-dataset/
-├── train/
-│   ├── closed_eye/
-│   ├── open_eye/
-│   ├── yawn/
-│   └── no_yawn/
-├── val/
-│   ├── closed_eye/
-│   ├── open_eye/
-│   ├── yawn/
-│   └── no_yawn/
-└── test/
-    ├── closed_eye/
-    ├── open_eye/
-    ├── yawn/
-    └── no_yawn/
-
----
-
-## Proje Klasör Yapısı
-
-driver-drowsiness-detection/
-│
-├── data/
-│   └── dataset dosyaları
-│
-├── models/
-│   └── drowsiness_cnn.h5
-│
-├── src/
-│   ├── train_cnn.py
-│   ├── train_mlp.py
-│   ├── evaluate.py
-│   └── realtime_demo.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
----
-
 ## Kullanılan Teknolojiler
 
 Projede kullanılan temel teknolojiler:

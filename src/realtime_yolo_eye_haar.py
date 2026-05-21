@@ -4,6 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 from tensorflow.keras.models import load_model
 
+
 #BUNU CALISTIRACAKSIN
 YOLO_MODEL_PATH = "models/yolo_drowsiness_cls.pt"
 EYE_MODEL_PATH = "models/eye_cnn.keras"

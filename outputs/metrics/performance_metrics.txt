@@ -1,0 +1,19 @@
+Sürücü Uyku ve Yorgunluk Tespiti - Performans Metrikleri
+============================================================
+
+Accuracy : 0.9954
+Precision: 0.9954
+Recall   : 0.9954
+F1-Score : 0.9954
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Closed       1.00      0.99      1.00       109
+        Open       0.99      1.00      1.00       109
+     no_yawn       0.99      1.00      1.00       109
+        yawn       1.00      0.99      1.00       106
+
+    accuracy                           1.00       433
+   macro avg       1.00      1.00      1.00       433
+weighted avg       1.00      1.00      1.00       433

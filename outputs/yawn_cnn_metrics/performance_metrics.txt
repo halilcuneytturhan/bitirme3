@@ -1,0 +1,17 @@
+Esneme Tespiti CNN Modeli - Performans Metrikleri
+============================================================
+
+Accuracy : 0.7256
+Precision: 0.7765
+Recall   : 0.6226
+F1-Score : 0.6911
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     no_yawn       0.69      0.83      0.75       109
+        yawn       0.78      0.62      0.69       106
+
+    accuracy                           0.73       215
+   macro avg       0.73      0.72      0.72       215
+weighted avg       0.73      0.73      0.72       215
